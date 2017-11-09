@@ -1,0 +1,120 @@
+/* Font Intergration with fallbacks for older browsers */
+@font-face {
+  font-family: 'headers';
+  src: url('../fonts/Theinhardt-Bold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('../fonts/Theinhardt-Regular.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@media print{
+	@page {
+    size: A4 landscape;
+		margin-top: 2mm;
+	    margin-right: 0;
+		margin-left: 0;
+		prince-pdf-print-scaling: none;
+	}
+}
+
+@media print {
+  html, body {
+	padding-top: 30mm;
+    width: 382mm;
+    height: 70mm;
+  }
+  .col_100 {
+	  display: none;
+  }
+  image {
+	  display: none;
+  }
+  /* ... the rest of the rules ... */
+}
+
+/* General */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px;
+	line-height: 1.7;
+	border: none;
+	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
+	font-smooth: always;
+	font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+body {
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #201f1f;
+	font-family: 'regular', arial, helvetica, sans-serif;
+	font-weight: 300 !important;
+	box-sizing: border-box;
+}
+
+/* Fonts */
+h1, h2, h3, h4 {
+font-family: headers;
+}
+
+p, li, a, span {
+font-family: regular;
+}
+h1 {font-size: 30px;margin-bottom: 15px;}
+h2 {font-size: 24px;margin-bottom: 15px;}
+h3 {font-size: 18px;margin-bottom: 5px;}
+p {font-size: 14px;margin-bottom: 15px;}
+ul {padding: 25px 0 25px 50px;}
+li {font-size: 14px;}
+span {font-size: 14px;}
+a {color: #f39200;}
+
+
+/* Columns */
+.col_10 {width: 10%;float: left;}
+.col_20 {width: 20%;float: left;}
+.col_25 {width: 25%;float: left;}
+.col_33 {width: 33.333%;float: left;}
+.col_30 {width: 30%;float: left;}
+.col_50 {width: 50%;float: left;}
+.col_66 {width: 66.666%;float: left;}
+.col_70 {width: 70%;float: left;}
+.col_75 {width: 75%;float: left;}
+.col_80 {width: 80%;float: left;}
+.col_100 {width: 100%;float: left;}
+
+
+/* Padding*/
+.padding {padding: 5%; padding-top: 35px;}
+.padding_top {padding-top: 50px;}
+.padding_bottom {padding-bottom: 50px;}
+.padding_left {padding-left: 20%;}
+.padding_right {padding-right: 20%;}
+
+
+/*SVG*/
+#radar {
+	display: block;
+	float: left;
+	width: 100%;
+}
+svg {
+	display: block;
+	float: left;
+	width: 100%;
+	margin: 0 0;
+}

@@ -1,0 +1,76 @@
+Tableau	Data Management	Hover comments here	0					
+SSIS	Data Management		0					
+SSAS	Data Management		1					
+Azure SQL DWH	Data Management		1					
+R Studio	Data Management		1					
+Power BI	Data Management		1					
+Spark	Data Management		2					
+HD Insight	Data Management		2					
+MySQL	Data Management		3					
+AngularJS	Languages & Frameworks		3					
+Typescript	Languages & Frameworks		0					
+Cordova	Languages & Frameworks		3					
+Dapper	Languages & Frameworks		2					
+Entity Framework v6	Languages & Frameworks		3					
+Enzyme Projactor	Languages & Frameworks		2					
+MOQ	Languages & Frameworks		0					
+jQuery	Languages & Frameworks		3					
+C#	Languages & Frameworks		0					0 adopt
+JSON	Languages & Frameworks		0					1 assess
+XML	Languages & Frameworks		3					3 hold
+.NetCore	Languages & Frameworks		0					
+Azure Identity Services	Languages & Frameworks		1					
+Docker	Platforms & Infrastructure		1					
+HSTS	Platforms & Infrastructure		2					
+CloudFlare	Platforms & Infrastructure		2					
+Containers	Platforms & Infrastructure		2					
+MongoDB DocumentDB	Platforms & Infrastructure		1					
+Microsoft Bot Framework	Platforms & Infrastructure		1					
+AWS	Platforms & Infrastructure		3					
+IaaS	Platforms & Infrastructure		3					
+Octopus Deploy	Platforms & Infrastructure		0					
+Key Vault	Platforms & Infrastructure		0					
+SSO	Techniques & Tools		3					
+OWASP	Techniques & Tools		0					
+Contract First	Techniques & Tools		0					
+SOLID	Techniques & Tools		0					
+Data Anonymonisation	Techniques & Tools		2					
+ARM Azure Resource Manager	Techniques & Tools		0					
+Bamboo	Platforms & Infrastructure		0					
+BitBucket	Techniques & Tools		0					
+Biztalk	Techniques & Tools		3					
+Elk	Techniques & Tools		3					
+Grafana	Techniques & Tools		3					
+Jira	Techniques & Tools		0					
+JSONAssert	Techniques & Tools		2					
+Load Impact	Techniques & Tools		2					
+Microsoft Teams	Techniques & Tools		2					
+ODS	Techniques & Tools		0					
+Pa11y	Techniques & Tools		1					
+Pinpoint	Techniques & Tools		1					
+Pipelines as code	Techniques & Tools		1					
+POSTMAN	Techniques & Tools		0					
+PowerShell	Techniques & Tools		0					
+SonarQube	Techniques & Tools		0					
+Tailsman	Techniques & Tools		1					
+Threat Modeling	Techniques & Tools		3					
+Webpack	Techniques & Tools		1					
+NPM	Techniques & Tools		2					
+Bower	Techniques & Tools		2					
+Nuget	Techniques & Tools		0					
+Swagger To Asciidoc	Techniques & Tools		0					
+Sharepoint	Platforms & Infrastructure		3					
+Confluence	Techniques & Tools		0					
+Neo4j	Techniques & Tools		2					
+Skype for business	Techniques & Tools		3					
+iServer	Techniques & Tools		3					
+DocFX	Techniques & Tools		3					
+FTP	Platforms & Infrastructure		3					
+SFTP	Platforms & Infrastructure		3					
+Email notifications	Platforms & Infrastructure		3					
+Push notifications	Platforms & Infrastructure		2					
+nHibernate	Techniques & Tools		2					
+Ionic	Languages & Frameworks		3					
+Xamarin	Languages & Frameworks		0					
+React Native	Languages & Frameworks		2					
+React	Languages & Frameworks		1					
