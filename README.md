@@ -10,6 +10,17 @@ The Technology Radar is a tool to inspire and support teams to pick the best tec
 1. run `ruby transform.rb` in your CLI to generate a new `radar_data.js`
 1. open `index.html` in your browser to inspect the result
 
+## Edit the titles
+
+Open the js/Values.js file and change the following strings:
+
+	var RadarTitle = "Title";  
+	var RadarSubTitle = "Subtitle";  
+	var RadarDate = "12/12/2017";
+	var RadarFooterTitle = "Footer Title";
+	var RadarFooterSubTitle = "Footer SubTitle";
+
+
 ## Speadsheet schema
 
 | Column |   Definition  |
